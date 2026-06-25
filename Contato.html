@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O melhor café da região</title>
+
+<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    
+        <div id="container"> <!-- CAIXA PRINCIPAL QUE RECEBERA TODAS OUTRAS -->
+            <div id="Logo">
+              <img src="Imagens/Designer.png" class="tamanhoLogo" alt="Logo"> <title>Logo xícara de café</title>
+            </div>
+
+            <div id="MENU">
+
+
+               <nav>
+                    <ul>   <!-- lista sem ordem -->
+                        <li> <a href="index.html" >O grãos</a> </li> <!-- item da lista -->
+                        <li> <a href="Produtos.html">Produtos</a> </li>
+                        <LI> <a href="Contato.html"class="botao">Contato</a> </LI>
+
+                    </ul>
+
+               </nav> 
+               
+</div>
+    <div id="Contato">
+        <img src="Imagens/contato.jpg" class="tamanhocontato" alt="Banner"> <title></title>
+        </div>
+
+        <div id="TEXTO">
+                <form method="post" id="FContato" action="mailto:empresa@gmail.com">
+                <!-- post guardar conteudo -->
+                <!-- get para pesquisa -->
+                <!-- action para enviar email com outlook -->
+                    
+                <p>
+                    <label for="cNome"> Nome: </label> <br>
+                    <!-- label o rotulo que vira antes da caixa for para posicionar a caixa br- break - quebra linha -->
+                    
+                    <input type="text" name="tNome" id="cNome" size="40" maxlength="30" autofocus required> 
+                    <!-- input- caixa para digitar///// type- do tipo texto size - tamanho da caixa/////// -->
+                    <!-- maxlenght- quantidade permitida de caracteres -->
+                    <!-- autofocus- cursor dentro da CAIXA -->
+                    <!-- required- preenchimento obrigatorio -->
+                    
+                </p>
+
+                <p>
+                    <label for="cRua"> Endereço: </label> <br>
+                    <input type="text" name="tRua" id="cRua" size="40" maxlength="50" placeholder="Rua, Av, Trav,..." required>
+                    <!-- placeholder texto inicialdentro da caixa -->
+
+                </p>
+                
+                <p>
+                    <label for="cTel">Telefone: </label> <br>
+                    <input type="tel" name="tTel" id="cTel" size="40" maxlength="30" required />
+
+                </p>
+
+                <p>
+                    <label for="cMail">E-mail: </label> <br>
+                    <input type="email" name="tMail" id="cMail" size="40" maxlength="30" required />
+
+                </p><!-- type email permiteque vc digite um email valido -->
+
+                <p>
+                    <label for="cMsg"> Mensagem: </label> <br>
+                    <textarea name="tMsg" id="cMsg" cols="40" rows="5" placeholder="Deixe aqui sua mensagem" ></textarea>
+
+                </p>
+                
+                <input type="submit" name="Enviar" style=" padding: 10px 15px 10px 15px; border-radius: 10px; border-color: white;">
+
+            </form>
+
+
+
+        </div>
+            
+             <footer id="RODAPE">
+            Todos direitos reservados - 2026
+
+            </footer>
+
+
+</div>
+
+       
+
+
+</body>
+
+
+
+
+</html>

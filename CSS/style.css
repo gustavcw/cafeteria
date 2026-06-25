@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+#container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+#Logo{
+    display: block; /* convertendo a div em blocos para alinhamento */
+    float: left; /* flutuando para esquerda dentro do container */
+    width: 10%;
+    height: 50px;
+    background-color: #463617
+
+}
+#MENU{
+    display: block;
+    float: right;
+    width: 90%;
+    height: 50px;
+    background-color: #463617
+
+}
+.botao{/* clase para deixar botao marrom na pagina */
+    background-color: #5f3f21;
+    color:  #d4b585;
+    border-radius: 10px;
+
+}
+
+#Bannerlateral{
+    display: block;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: AUTO;
+    padding: 2%;
+
+}
+#TEXTO{
+    display: block;
+    float: right;
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    height: 300px;
+    color: #000000;
+    margin-bottom: 28%;
+
+}
+h1{
+    color: #5f3f21;
+    text-align: center;
+    font-family: Geometr706 BlkCn BT, "Arial", "Helvetica Neue", Helvetica, sans-serif; 
+
+}
+h2{
+    color: rgb(224, 149, 57);
+    text-align: center;
+    font-family: Geometr706 BlkCn BT, "Arial", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.tamanhoLogo{
+    width: 50%;
+    height: 60px;
+
+}
+.tamanhobannerlateral{
+    width: 100%;
+    height: 450px;
+
+}
+
+#RODAPE{
+    text-align: center; /* para limpar e fechar todas as divs */
+    font-family: Geometr706 BlkCn BT, "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #463617;
+    color:  #d4b585;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    padding-top: 1%;
+    
+
+}
+
+/* FORMATANDO O MENU */
+
+nav{
+    max-width: 100%;/* largura maxima do dispositivo */
+    height: 50px;
+    background-color: #463617;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 70px; /* distancia entre os botoes */
+
+
+}
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #d4b585;
+    display: block;
+    text-align: center;
+    background-color:  #463617;
+    border-radius: 10px;
+
+}
+ nav ul li a:hover {
+    background-color: #634018;
+    transition: all .5s;
+    border-radius: 10px;
+
+ }
+
+
+
+ #PRODUTOS{
+
+    display: block;  
+    background-color:rgb(255, 255, 255);
+    width: 95%;
+    height: 790px;
+    text-align: justify;
+    font-family: Geometr706 BlkCn BT, "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    padding: 2%;
+
+ }
+
+table{
+    margin: auto; /* Centraliza na div */
+    border-style: groove;   /* arredonda */
+    border-color: #634018;
+    border-radius: 10px;
+
+}
+td{
+    border-style: groove;   /* arredonda */
+    border-color: #463617;
+    border-radius: 10px;
+    text-align: center;
+    color: #463617;/* cor da fonte */
+    padding: 10px;/* espaço do texto das bordas */
+
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+
+}
+/* css contato */
+
+#Contato{
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.tamanhocontato{
+    width: 700px;
+    height: 700px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
